@@ -36,7 +36,9 @@
 2. Intro to Client Server Architecture (more details in the next theory class)
 3. Intro to XAMPP (more details in the next lab class)
 
-<!-- callout -->
+> ![NOTE]
+> Practice Task: [My Mini Profile](<Practice Task - My Mini Profile.md>)
+
 > [!NOTE] 
 > Homework: Week 2 HTML slides in the following link
 
