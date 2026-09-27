@@ -16,3 +16,5 @@
 - All webpages you want to serve must be placed in the `htdocs` folder of your XAMPP installation. Typically, this folder is located at `C:\xampp\htdocs` on Windows or `/Applications/XAMPP/htdocs` on macOS.
 - We created a folder named `wtl` inside the `htdocs` folder and placed `index.html` file inside it
 - To access the webpage, open a web browser and type `http://localhost/wtl/index.html` in the address bar. This will load the `index.html` file from the `wtl` folder and display it in the browser.
+
+### Practice Task: [My Mini Profile](<Practice Task - My Mini Profile.md>)
