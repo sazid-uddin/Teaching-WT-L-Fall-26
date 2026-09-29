@@ -16,7 +16,7 @@
 > [!NOTE] 
 > Homework: Week 2 HTML slides in the following link
  
-# How to create a simple webpage using HTML
+# How to create a simple webpage using HTML ([see example in index.html](index.html))
 - A webpage consists of different elements.  
 - Each element has a corresponding 'tag'.  
 - Each tag has an opening part and a closing part.  
