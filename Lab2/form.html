@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Account Create</title>
+    </head>
+    <body>
+        <h2>Create your account</h2>
+        <h4>With form validation</h4>
+        <form action="form-handler.html" method="post">
+            <fieldset>
+				<legend>Names</legend>
+                <label for="firstname">First Name:</label>
+                <input id="firstname" name="fn" minlength="3" required />
+                <br />
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="ln" required />
+            </fieldset>
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="em" required />
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="p1" required />
+            <br />
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" id="cpassword" name="p2" required />
+            <br />
+            <button>Click Me</button>
+            <br />
+            <textarea name="" id=""></textarea>
+            <br />
+            Age: <input type="number" min="18" max="100" />
+            <br />
+            Gender:
+            <br />
+            <input type="radio" name="gender" /> Male
+            <br />
+            <input type="radio" name="gender" /> Female
+            <br />
+            <input type="radio" name="gender" /> Other
+            <br />
+            <select>
+                <option value="">Select an option</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+            </select>
+            <br />
+            <input type="checkbox" /> Agree to the <a href="terms.html">terms and condition</a>?
+            <br />
+            <input type="range" />
+            <br />
+            <input type="submit" value="Create Account" />
+            <input type="reset" />
+        </form>
+    </body>
+</html>
