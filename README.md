@@ -24,6 +24,7 @@
 - [Lab 1 - Sep 27](Lab1/README.md)
 - [Theory 1 - Sep 29](Theory1/README.md)
 - [Lab 2 - Oct 4](Lab2/README.md)
+- [Theory 2 - Oct 6](Theory2/README.md)
 
 ---
 Course Slides and Materials: Check the link in the notice on AIUB Portal
