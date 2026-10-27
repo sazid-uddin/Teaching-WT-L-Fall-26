@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>DOM Demo</title>
+        <script src="dynamic_table.js"></script>
+    </head>
+    <body>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th,
+            td {
+                padding: 5px;
+            }
+        </style>
+        <script>
+            function changeHeadingColor(heading) {
+                heading.style.color = "red";
+            }
+            function changeColor() {
+                let my_headings = document.querySelectorAll("h1");
+                console.log(my_headings);
+                // querySelector selects first element that matches the selector
+                // qyerySelectorAll select all of them -> in an array, always
+                // my_headings[1].style.color = "red";
+                my_headings.forEach(changeHeadingColor);
+                // element.style.property
+            }
+        </script>
+        <h1>Old Heading 1</h1>
+        <button onclick="changeColor()">Change heading color</button>
+        <h1>Old Heading 2</h1>
+		<button onclick="generateTable()">Generate Table</button>
+
+        <!-- <table>
+            <tr>
+                <th>Name</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td>3.5</td>
+            </tr>
+        </table> -->
+    </body>
+</html>
