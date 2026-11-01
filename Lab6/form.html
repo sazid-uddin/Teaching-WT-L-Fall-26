@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Account Create</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Create your account</h2>
+        <h4>With form validation</h4>
+		<button onclick="func()">Click me</button>
+        <form onsubmit="return validateForm()" action="form-handler.html" method="post">
+            <fieldset>
+                <legend>Names</legend>
+                <label for="firstname">First Name:</label>
+                <input id="firstname" name="fn" />
+				<span id="fn_error" style="color: red; font-size: smaller;"></span>
+                <br />
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="ln" />
+            </fieldset>
+            <br />
+            <label for="email">Email: (must end with aiub.edu)</label>
+            <input type="email" id="email" name="em" />
+				<span id="email_error" style="color: red; font-size: smaller;"></span>
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="p1" />
+            <br />
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" id="cpassword" name="p2" />
+            <br />
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone" pattern="^01\d{9}$" />
+            <br />
+            <button>Click Me</button>
+            <br />
+            <textarea name="" id=""></textarea>
+            <br />
+            Age: <input type="number" min="18" max="100" />
+            <br />
+            Gender:
+            <br />
+            <input type="radio" name="gender" /> Male
+            <br />
+            <input type="radio" name="gender" /> Female
+            <br />
+            <input type="radio" name="gender" /> Other
+            <br />
+            <select>
+                <option value="">Select an option</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+            </select>
+            <br />
+            <input type="checkbox" /> Agree to the <a href="terms.html">terms and condition</a>?
+            <br />
+            <input type="range" />
+            <br />
+            <input type="submit" value="Create Account" />
+            <input type="reset" />
+        </form>
+    </body>
+</html>

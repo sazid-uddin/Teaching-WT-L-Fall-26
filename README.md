@@ -31,6 +31,7 @@
 - Theory 4 - Oct 20 (Holiday due to Durga Puja)
 - Lab 5 - Oct 25 (Makeup scheduled for Nov 5)
 - [Theory 5 - Oct 27](Theory5/README.md)
+- [Lab 6 - Nov 1](Lab6/README.md)
 
 ---
 Course Slides and Materials: Check the link in the notice on AIUB Portal
